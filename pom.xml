@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <properties>
+    <users-db-dao-version>0.0.1-SNAPSHOT</users-db-dao-version>
+  </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.skillsimprover</groupId>
+  <artifactId>users-db</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <modules>
+    <module>users-db-dao</module>
+  </modules>
+  <packaging>pom</packaging>
+  <build>
+    <directory>users-db-dao</directory>
+  </build>
+</project>
